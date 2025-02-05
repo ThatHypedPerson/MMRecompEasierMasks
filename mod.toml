@@ -11,19 +11,17 @@ id = "mm_recomp_easy_masks"
 version = "1.0.0"
 
 # The name that will show up for this mod in the mod menu. This should be human readable.
-display_name = "MM Recomp Easy Masks"
+display_name = "MM Recomp Easier Masks"
 
 # The description that will show up when this mod is displayed in the mod menu. This should be human readable.
 description =  """
 This is a mod for Majora's Mask: Recompiled that lets you switch out of your current transformation \
-back to human while wearing a new mask.<br/><br/>
-This is meant to replicate how Majora's Mask 3D handles masks and saves a few annoying button presses.
-<br/><br/>
-For more details, see https://github.com/ThatHypedPerson/MMRecompEasierMasks."""
+back to human by selecting and wearing a new mask.<br/><br/>
+This is meant to replicate how Majora's Mask 3D handles masks and saves a few annoying button presses."""
 
 # A short description that will show up in this mod's entry in the mod list. This should be human readable and kept short
 # to prevent it from being cut off due to the limited space.
-short_description = "Go back to human wearing a mask."
+short_description = "Lets you go back into human form by wearing a mask, just like MM3D."
 
 # Authors of this mod.
 authors = [ "Hyped (ThatHypedPerson)" ]
@@ -60,4 +58,6 @@ func_reference_syms_file = "Zelda64RecompSyms/mm.us.rev1.syms.toml"
 data_reference_syms_files = [ "Zelda64RecompSyms/mm.us.rev1.datasyms.toml", "Zelda64RecompSyms/mm.us.rev1.datasyms_static.toml" ]
 
 # Additional files to include in the mod.
-additional_files = [ ]
+additional_files = [
+	"thumb.dds"
+]
